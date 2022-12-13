@@ -1,0 +1,88 @@
+body {
+    background-color: rgba(87, 87, 87, 0.959);
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: rgb(48, 48, 48);
+    height: 80px;
+    width: 100%;
+}
+nav ul {
+    float: right;
+    margin-right: 20px
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active, a:hover {
+    background-color: rgb(26, 26, 26);
+    transition: .5s;;
+}
+
+
+.arviointitaulukko {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.arviointitaulukko, td {
+    border: 1px solid;
+    padding: 8px;
+    text-align: left;
+}
+
+.arviointitaulukko, th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid;
+    text-align: left;
+}
+
+.arviointitaulukko, tr:nth-child(even){
+    background-color: rgba(78, 78, 78, 0.95);
+}
+
+.arviointitaulukko, tr:nth-child(odd){
+    background-color: rgba(70, 70, 70, 0.95);
+}
+
+label.logo {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 18px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 800px){
+    label.logo, nav {
+        display: block;
+        float: none;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        clear: both;
+    }
+    nav ul li a {
+        padding: 4px 4px
+    }
+    nav ul li {
+        display: inline-block;
+        line-height: 35px;
+        margin: 0 5px;
+    }
+}

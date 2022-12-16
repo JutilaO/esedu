@@ -1,0 +1,13 @@
+body {
+    background-color: rgba(87, 87, 87, 0.959);
+}
+nav {
+    background-color: rgb(48, 48, 48);
+}
+.arviointitaulukko, tr:nth-child(even){
+    background-color: rgba(78, 78, 78, 0.95);
+}
+
+.arviointitaulukko, tr:nth-child(odd){
+    background-color: rgba(70, 70, 70, 0.95);
+}

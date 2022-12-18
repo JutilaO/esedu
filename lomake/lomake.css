@@ -1,0 +1,49 @@
+body {
+    background-color: royalblue;
+    font-family: cursive;
+}
+
+#nimi, #osoite, #email {
+    width: 250px;
+    padding: 2px;
+}
+
+#lisatiedot {
+    width: 280px;
+    height: 150px;
+    padding: 2px;
+}
+
+#id, #salasana {
+    width: 150;
+    padding: 2px;
+}
+
+#postinumero {
+    width: 100;
+    padding: 2px;
+}
+
+h1 {
+    margin-left: 5%
+}
+
+label {
+    float: left;
+    text-align: right;
+    width: 115px;
+    padding-right: 6px
+}
+
+#laheta {
+    padding: 10px 20px;
+    font-size: 18px;
+    position: absolute;
+    left: 200px;
+    top: 479px
+}
+
+#tulos {
+    position: absolute;
+    top: 520px;
+}

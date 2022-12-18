@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <link rel="stylesheet" href="lomake.css">
+    <title>Rekisteröitymislomake</title>
+</head>
+<body>
+    <h1>Rekisteröitymislomake</h1>
+        <form name="id">
+            <label>Käyttäjä ID:</label>
+            <input type="text" name="id" id="id">
+        </form>
+
+        <form name="salasana">
+            <label>Salasana:</label>
+            <input type="text" name="salasana" id="salasana">
+        </form>
+
+        <form name="nimi">
+            <label>Nimi:</label>
+            <input type="text" name="nimi" id="nimi">
+        </form>
+
+        <form name="osoite">
+            <label>Osoite:</label>
+            <input type="text" name="osoite" id="osoite">
+        </form>
+
+        <label>Maa:</label>
+        <select id="maa">
+            <option value="none" selected="true" disabled="disabled">(Valitse maa)</option>
+            <option value="suomi">Suomi</option>
+            <option value="viro">Viro</option>
+            <option value="Ruotsi">Ruotsi</option>
+            <option value="Norja">Norja</option>
+        </select>
+
+        <form name="postinumero">
+            <label>Postinumero:</label>
+            <input type="text" name="postinumero" id="postinumero">
+        </form>
+
+        <form name="email">
+            <label>Sähköposti:</label>
+            <input type="text" name="email" id="email">
+        </form>
+
+        <div>
+            <label>Sukupuoli:</label>
+            <tr>
+                <td><input type="radio" name="sukupuoli" id="mies" checked>Mies</td>
+                <td><input type="radio" name="sukupuoli" id="nainen">Nainen</td>
+            </tr>
+        </div>
+
+        <div>
+            <label>Kieli:</label>
+            <tr>
+                <td><input type="checkbox" name="kieli" id="suomi">Suomi</td>
+                <td><input type="checkbox" name="kieli" id="muu">Muu kuin suomi</td>
+            </tr>
+        </div>
+
+        <form name="lisatiedot">
+            <label>Lisätietoja:</label>
+            <textarea type="text" name="lisatiedot" id="lisatiedot"></textarea>
+        </form>
+        <button id="laheta">Lähetä</button>
+        <p id="tulos">
+            
+        </p>
+
+    <script src="lomake.js"></script>
+</body>
+</html>

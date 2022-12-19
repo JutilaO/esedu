@@ -1,0 +1,166 @@
+body {
+    background-color: rgb(53, 53, 53);
+    color: white
+}
+
+h2 {
+    font-size: 50px;
+    font-family: "Comic Sans MS";
+    position: absolute;
+    left: 25%;
+    top: 5%;
+}
+
+.title {
+    position: absolute;
+    width: 66.6%;
+    height: 13%;
+    background-color: rgb(78, 78, 78);
+}
+
+#kissa {
+    width: 10%;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    z-index: 10;
+}
+
+#pats {
+    position: absolute;
+    left: 28.5%;
+    top: 20%;
+    font-size: 20px
+}
+
+#pps {
+    position: absolute;
+    left: 28.5%;
+    top: 49%;
+    font-size: 16px
+}
+
+#sivupalkki {
+    float: right;
+    width: 33%;
+    height: 100vh;
+    background-color: rgb(78, 78, 78);
+    z-index: 10;
+}
+
+#shop {
+    font-family: "Comic Sans MS";
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#shop td, #shop th {
+    padding: 8px;
+}
+
+#shop tr {
+    background-color: rgb(58, 58, 58);
+}
+
+#shop tr:hover{background-color: rgb(92, 92, 92)}
+
+#shop th {
+    text-align: left;
+    background-color: rgb(49, 49, 49);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.hearts {
+    width: 30%;
+    min-width: 250px;
+    height: 45%;
+    min-height: 250px;
+    position: absolute;
+    top: 15%;
+    left: 16%;
+}
+
+.heart {
+    position: absolute;
+    height: 2%;
+    min-height: 25px;
+    width: 2%;
+    min-width: 25px;
+    background-color: red;
+    -webkit-mask-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg>');
+        mask-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg>');
+    -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+    -webkit-mask-position: bottom;
+        mask-position: bottom;
+    opacity: 0;
+    animation: heart 6s infinite cubic-bezier(0.5, 0.5, 0.5, 0.5);
+}
+
+#heart1 {
+    left: 10%
+}
+#heart2 {
+    left: 25%
+}
+#heart3 {
+    left: 65%;
+}
+#heart4 {
+    left: 90%
+}
+
+@keyframes heart {
+    0% {
+      opacity: 0;
+      bottom: 0%;
+    }
+    10% {
+      opacity: 1;
+      bottom: 20%;
+    }
+    20% {
+      bottom: 40%;
+    }
+    30% {
+      bottom: 60%;
+    }
+    40% {
+      opacity: 1;
+      bottom: 80%;
+    }
+    48% {
+      opacity: 0;
+      bottom: 100%;
+    }
+    100% {
+      opacity: 0;
+      bottom: 100%;
+    }
+}
+
+.heart:nth-child(1) {  
+animation-delay: 1s;
+}
+
+.heart:nth-child(3) {
+animation-delay: 2.5s;
+}
+
+.heart:nth-child(4) {
+animation-delay: 3.5s;
+}
+
+.heart:nth-child(2) {
+animation-delay: 4.5s;
+}

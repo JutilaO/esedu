@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sika.css">
+    <title>Sika</title>
+</head>
+<body>
+
+    <div class="asetukset">
+        <h1>Sika</h1>
+        <h2>Asetukset</h2>
+        <label>Noppien määrä:</label>
+        <select id="nopat">
+            <option value="yksiNoppa" selected="true">1 noppa</option>
+            <option value="kaksiNoppaa">2 noppaa</option>
+        </select>
+        </br>
+        <label>Pistemäärä:</label>
+        <form name="pistemaara">
+            <input type="text" name="pistemaara" id="pistemaara" value="100">
+            <label id="pistemaaraVirhe"></label>
+        </form>
+        <label>Pelaajan nimi</label>
+        <form name="pelaajat">
+            <input type="text" name="nimi" id="nimi">
+            <button id="lisaa">Lisää pelaaja</button>
+            <button id="poista">Poista pelaaja</button>
+            <label id="pelaajatVirhe"></label>
+        </form>
+        <p id="pelaajalista">
+        <b>Pelaajat:</b>
+        </br>Ei pelaajia
+        </p>
+        <button id="aloita">Aloita</button>
+        <button id="lopeta">Lopeta</button>
+    </div>
+
+    <div class="peli">
+        <h1 id="pelaajaNimi">Pelaaja</h1>
+        <h1 id="tulos">Tulos</h1>
+        <h1 id="pisteet">Pisteet:</h1>
+        <h1 id="voittaja"></h1>
+        <button id="heita" disabled=true>Heitä</button>
+        <button id="lopetaHeitto" disabled=true>Lopeta</button>
+    </div>
+
+    <div class="clearfix">
+        <div class="box" id="sivupalkki">
+            <h1 id="pistetaulukko">Pistetaulukko</h1>
+                <table id="taulukko">
+                    <tr>
+                        <th>Nimi</th>
+                        <th>Pisteet</th>
+                    </tr>
+                </table>
+        </div>
+    </div>
+
+    <script src="./scripts/sika.js"></script>
+</body>
+</html>

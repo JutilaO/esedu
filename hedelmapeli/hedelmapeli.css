@@ -1,0 +1,197 @@
+body {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    font-family: "Comic Sans MS";
+    margin: 0px;
+}
+
+.alapalkki {
+    width: 100%;
+    height: 7%;
+    background-color: rgb(48, 48, 48);
+    position: absolute;
+    bottom: 8%
+}
+
+.alapalkkiInfo {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(32, 32, 32);
+}
+
+#saldo {
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-right: 0px;
+    position: absolute;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 25px;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(32, 32, 32);
+}
+
+#saldoText {
+    text-align: left;
+    padding: 14px 0;
+}
+
+#pelaa {
+    background-color: rgb(32, 32, 32);
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+
+#pelaaPainike {
+    font-size: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+#pelaaPainike:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+#panosAlas, #panos, #panosYlos {
+    background-color: rgb(32, 32, 32);
+    width: 10%;
+    height: 100%;
+    float: right;
+}
+
+#panosText {
+    font-size: 25px;
+    padding: 14px 0;
+    text-align: center;
+}
+
+#panosAlasPainike, #panosYlosPainike {
+    font-size: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+#panosAlasPainike {
+    border-left: 0px
+}
+
+#panosYlosPainike:hover, #panosAlasPainike:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.rullat {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 25%;
+    width: 50%;
+    height: 250px;
+    background-color: rgb(48, 48, 48);
+}
+
+#rulla1, #rulla2, #rulla3, #rulla4 {
+    background-color: rgb(32, 32, 32);
+    width: 25%;
+    height: 250px;
+    float: left;
+    display: flex;
+}
+
+img {
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+    display: block;
+}
+
+.lukot {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+    width: 50%;
+    height: 45px;
+    background-color: rgb(48, 48, 48);
+}
+
+#lukko1, #lukko2, #lukko3, #lukko4 {
+    background-color: rgb(32, 32, 32);
+    width: 25%;
+    height: 45px;
+    float: left;
+}
+
+#lukitse1, #lukitse2, #lukitse3, #lukitse4 {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    font-size: 18px;
+}
+
+#lukitse1:hover:enabled, #lukitse2:hover:enabled, #lukitse3:hover:enabled, #lukitse4:hover:enabled {
+    background-color: rgb(59, 59, 59);
+}
+
+#lukitse1:disabled, #lukitse2:disabled, #lukitse3:disabled, #lukitse4:disabled {
+    opacity: 0.2;
+    border: 1px solid black;
+}
+
+.voitto {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 50.8%;
+    width: 10%;
+    height: 100px;
+    background-color: rgb(48, 48, 48);
+    border: 3px solid black
+}
+
+#voittoText {
+    font-size: 25px;
+    padding: 6px 0;
+    text-align: center;
+    border-bottom: 2px solid black
+}
+
+#voittoLuku {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 60%;
+    height: 50%;
+}
+
+#voittoLuku {
+    text-align: center;
+    padding: 4px;
+    font-size: 25px
+}
+
+
+h1 {
+    font-size: 45px;
+    text-align: center
+}

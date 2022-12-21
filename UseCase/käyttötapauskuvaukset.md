@@ -20,7 +20,7 @@
 
 # Käyttötapauskuvaus
 
-**Nimi:** Kirjautuminen 
+**Nimi:** Kirjautuminen  
 **Osallistujat:** Kaikki käyttäjät  
 **Tuloehdot:** Käyttäjä on rekisteröitynyt  
 **Kuvaus:** Käyttäjä hakeutuu järjestelmän etusivulle ja kirjautuu sisään.  

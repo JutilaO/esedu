@@ -70,7 +70,7 @@
 
 # Käyttötapauskuvaus
 
-**Nimi:** Äänestäminen 
+**Nimi:** Äänestäminen  
 **Osallistujat:** Käyttäjät  
 **Tuloehdot:** Käyttäjä on kirjautuneena järjestelmään  
 **Kuvaus:** Käyttäjä hakeutuu järjestelmän etusivulle ja näkee äänestykset. Käyttäjä valitsee haluamansa äänestyksen. Käyttäjä äänestää valitsemaansa äänestystä.  
@@ -80,7 +80,7 @@
 
 # Käyttötapauskuvaus
 
-**Nimi:** Äänestäminen 
+**Nimi:** Äänestäminen  
 **Osallistujat:** Käyttäjät  
 **Tuloehdot:** Käyttäjä on kirjautuneena järjestelmään  
 **Kuvaus:** Käyttäjä hakeutuu järjestelmän etusivulle ja näkee äänestykset. Käyttäjä valitsee haluamansa äänestyksen. Käyttäjä näkee valitsemansa äänestyksen tilanteen.  

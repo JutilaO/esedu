@@ -1,6 +1,6 @@
 # Käyttötapauskuvaus
 
-**Nimi:** Äänestysten luonti
+**Nimi:** Äänestysten luonti  
 **Osallistujat:** Ylläpitäjät
 **Tuloehdot:** Ylläpitäjä on kirjautunut järjestelmään
 **Kuvaus:** Ylläpitäjä hakeutuu järjestelmän etusivulle ja kirjautuu sisään. Ylläpitäjä luo etusivulla uuden äänestyksen.

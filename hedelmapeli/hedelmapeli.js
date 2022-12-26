@@ -90,7 +90,7 @@ function salliLukitus(){
 //Pyöräytystoiminto
 function pelaa(event){
     event.preventDefault()
-    if(data.saldo > data.panos){
+    if(data.saldo >= data.panos){
 
         data.saldo -= data.panos
 
